@@ -1,0 +1,96 @@
+div  {
+    padding: 20px;
+
+}
+
+
+body{
+    background-color:rgb(234, 244, 215) ;
+    border-radius:8px ;
+}
+img{
+    
+    
+    width:100px ;
+    right: 90px;
+    border-radius: 50%;
+}
+header{
+    
+    background-color: rgb(181, 187, 169);
+    border-radius:8px ;
+}
+
+
+
+h1#nome{
+    
+    font-family: initial;
+    position: absolute;
+    top: 0px;
+    left: 110px;
+   
+
+
+    
+  }
+
+  h6#fone{
+    font-family: initial;
+    position: absolute;
+    top: 55px;
+    left: 110px;
+  }
+  
+  h6#email{
+    font-family: initial;
+    position: absolute;
+    top: 70px;
+    left: 110px;
+  }
+
+  h6#data {
+    font-family: initial;
+    position: absolute;
+    top: 40px;
+    left: 110px;
+
+  }
+  
+  
+
+h2{
+   padding: 10px;
+    background-color:rgb(181, 187, 169) ;
+    border-radius:8px ;
+
+
+  }  
+    
+
+
+h4{
+  padding: 5px;
+    background-color:   rgb(181, 187, 169);
+    border-radius:8px ;
+
+
+}
+h3{
+  background-color:   rgb(181, 187, 169);
+  border-radius:8px ;
+
+}
+
+p{
+  margin: 20px;
+
+}
+
+footer {
+  text-align: center;
+  border-radius:8px ;
+  margin-right:40px ;
+  background-color:rgb(181, 187, 169);
+  color: black;
+}

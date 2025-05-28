@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com hover</title>
+
+    <style>
+        body{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .quadrado{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 2px;
+            border-radius: 25px;
+             box-shadow: 4px 0px 10px rgb(231, 231, 236)
+
+        }
+
+        /* .quadrado:hover{
+            background-color: blue;
+
+        } */
+       .cadastro{
+            height: 50px;
+            width: 150px;
+            border: solid;
+            background-color: transparent;
+            border-color: white;
+            color: white;
+            font-size: 55px;
+            font-family: cursive;
+        }
+
+        button.login{
+            background-color: rgb(104, 104, 218);
+        }
+
+        button.recuperar{
+
+            background-color:aqua ;
+        }
+
+
+        
+
+        button{
+            border-radius: 25px;
+
+        }
+
+        button:hover{
+            background-color: rgb(59, 234, 36);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="quadrado">
+        <button class="Cadastro">Cadastro</button>
+        <button class="login">Login</button>
+        <button class="recuperar">Recuperar senha</button>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+div{
+    height: 200px;
+    width: 200px;
+}
+
+#conteiner{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows:300px ;
+
+}
+
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#pink{
+    background-color: pink;
+
+}
+#green{
+    background-color: green;
+}
