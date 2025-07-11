@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Delicia</title>
+
+    <body>
+        
+    </body>
+
+
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: rgb(231, 231, 82);
+        }
+
+    header {
+            background-color:brown;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 20px;
+        }
+
+    nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo{
+            width:100px ;
+            right: 90px;
+            border-radius: 50%;
+            animation: rodar;
+            animation-duration: 10s;
+            animation-timing-function: ease;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+
+            animation-play-state: running;
+                }
+
+                a:hover{
+                    background-color: rgba(0, 0, 0, 0.41);
+                    scale: 5;
+                    border-radius: 10px;
+                    margin: 2px;
+                    
+                    
+                    gap: 20px;
+                }
+
+                button:hover{
+                    background-color: rgba(0, 0, 0, 0.41);
+                    scale: 1;
+                    
+
+                }
+                
+         @keyframes rodar{
+            0%{
+
+            }
+            25%{
+                scale: 0;
+                
+                border-radius: 50px;
+                color: black;
+            }
+           
+
+            50%{
+                scale: 0.8;
+                
+                border-radius: 50px;
+                color: black;
+               
+            }
+            100%{
+
+                transform: rotate(360deg);
+                border-radius: 50px;
+                color: white;
+
+                
+            }
+        }
+
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        div#logo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 5px;
+
+        }
+
+
+
+
+        section#inicial{
+           background-color:  rgb(231, 231, 82);
+        }
+
+        img#principal{
+            height: 500px;
+            width: 800px;
+            border-radius: 10px;
+            
+            
+        }
+
+
+        img#principal:hover{
+            
+            
+           border-radius: 50%;
+        }
+
+        .FotoCafe{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            border-radius: black 10px 10px 10px;
+            
+            
+        }
+
+        section h1{
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+
+        .opcao{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            gap: 5px;
+            margin: 100px;
+           
+            
+        }
+
+        .cafes{
+            border: solid 1px;
+            background: rgb(173, 165, 165);
+            height: 70px;
+            width: 200px;
+            border-radius: 20px;
+            color: brown;
+            box-shadow: black 1px 1px 6px ;
+               
+
+        }
+
+
+        .cafes a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            margin: 10px 10px;
+        }
+
+        .boasVindas{
+            background-color: white;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            flex-direction: column;
+            margin-top: 20px;
+            gap: 30px;
+
+        }
+        .boasVindas button{
+            border-radius: 20px;
+            background-color: brown;
+            color: white;
+            width: 200px;
+            
+        }
+        .boasVindas button:hover{
+            scale: 1.5;
+            background-color: rgba(165, 42, 42, 0.233) (0, 0, 0, 0.419);
+        }
+
+
+        footer{
+            background-color: brown;
+            text-align: center;
+            height: 50px;
+            border-radius: 10px;
+            margin-top: 20px;
+            padding-top:20px ;
+        }
+
+
+        @media (max-width: 700px){
+            nav ul {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            
+
+            
+        
+            
+           .opcao{
+            flex-direction: column;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            gap: 20px;
+            margin: 50px;
+           
+            
+        }
+
+        img#principal{
+            width: 70%;
+            height: 50%;
+        }
+
+        
+        
+
+}
+        </style>
+
+</head>
+<body>
+    <header>
+
+<nav>
+    
+    <div id="logo"><img class="logo" title="Cafe Delicia" src="data:image/png;base64,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" alt="Cafe Delicia">        
+     <h1>Cafe Delicia</h1>
+    </div>
+
+     
+                
+                
+    <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Caradapio</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+</nav>
+    </header>
+            
+        <section id="inicial">
+         
+            <h1>Nosso Cafés</h1>
+
+            <div class="opcao" >
+            <button class="cafes" ><a href="#">Cafe Expressso</a></button>
+            <button class="cafes" ><a href="#">Cafe com Leite</a></button>
+            <button class="cafes" ><a href="#">Caputino</a></button>
+            <button class="cafes"><a href="#">moido</a></button>
+            </div>
+
+            <div class="FotoCafe">
+                <img id="principal" src="https://irp.cdn-website.com/33406c6e/dms3rep/multi/cafeteria.jpg" alt="">
+
+            </div>
+        </section>
+
+
+
+        <section class="boasVindas">
+            <h1>Bem Vindo ao Cafe Delicia</h1>
+            <p>O melhor café da cidade com o toque especial que você merece</p>
+                <button>Ver Caradapio</button>
+        </section>
+
+
+
+        <footer>
+            <p> 2025-Cafe Delicia todos os Direito reservados</p>
+        </footer>
+
+</body>
+</html>
