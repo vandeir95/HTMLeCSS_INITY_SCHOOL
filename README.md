@@ -1,4 +1,4 @@
-🌐 Aprendizado em HTML e CSS - Infinity School
+* 🌐 Aprendizado em HTML e CSS - Infinity School
 
 Este repositório reúne meus estudos e exercícios realizados durante o curso de HTML e CSS na Infinity School.
 Aqui compartilho minha evolução, conceitos aprendidos e projetos práticos desenvolvidos ao longo da jornada.
