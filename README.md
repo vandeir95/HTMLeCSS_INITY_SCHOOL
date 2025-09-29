@@ -8,15 +8,15 @@ Aqui compartilho minha evolução, conceitos aprendidos e projetos práticos des
 
 Estrutura básica de um documento HTML
 
-Principais tags: <head>, <body>, <header>, <footer>, <main>, <section>, <article>
+Principais tags: " <head>, <body>, <header>, <footer>, <main>, <section>, <article>"
 
-Listas (<ul>, <ol>, <li>)
+Listas ("<ul>, <ol>, <li>")
 
-Links (<a>) e Imagens (<img>)
+Links ("<a>") e Imagens ("<img>")
 
-Tabelas (<table>, <tr>, <td>, <th>)
+Tabelas ("<table>, <tr>, <td>, <th>")
 
-Formulários (<form>, <input>, <textarea>, <button>)
+Formulários ("<form>, <input>, <textarea>, <button>")
 
 ✅ Fundamentos de CSS
 
